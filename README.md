@@ -1,5 +1,5 @@
 # HunanMultimodalDataset
-A multimodal (i.e., Sentinel-2, Sentinel-1, and SRTM) remote sensing dataset in Hunan, China.
+A multimodal (i.e., Sentinel-2, Sentinel-1, and SRTM) remote sensing dataset of year 2017 in Hunan, China.
 
 # Title
 DKDFN: Domain Knowledge-Guided Deep Collaborative Fusion Network for Multimodal Remote Sensing Yearly Composite Land Cover Classification
@@ -9,4 +9,4 @@ Land use and land cover maps provide fundamental information that has been used 
 
 
 # Dataset Description
-![image](https://user-images.githubusercontent.com/15528065/154173038-3ca73af8-8b4f-4d18-aa6a-2d8693313f44.png)
+
