@@ -17,6 +17,7 @@ This dataset contains 400 256*256 images for training, 50 for validation and tes
 # Dataset Process
 Potential users of this dataset should utilize the following code to preprocess the label.
 
+```
 from skimage import io
 
 igbp2hunan = np.array([255, 0, 1, 2, 1, 3, 4, 6, 6, 5, 6, 7, 255])
@@ -26,5 +27,6 @@ def load_lc(path):
     lc[lc == 255] = 12
     lc = igbp2hunan[lc]
     return lc
-        
+```
+
 Note that after processing, the label will be in 0-6, where 0 stands for cropland, 1 stands for forest, 2 stands for grassland, 3 stands for wetland, 4 stands for water, 5 stands for bare land, and 6 stands for others.
