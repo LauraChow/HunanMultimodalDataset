@@ -29,4 +29,4 @@ def load_lc(path):
     return lc
 ```
 
-Note that after processing, the label will be in 0-6, where 0 stands for cropland, 1 stands for forest, 2 stands for grassland, 3 stands for wetland, 4 stands for water, 5 stands for bare land, and 6 stands for others.
+Note that after processing, the label will be in 0-6, where 0 stands for cropland, 1 stands for forest, 2 stands for grassland, 3 stands for wetland, 4 stands for water, 5 stands for unused land, and 6 stands for built-up area.
